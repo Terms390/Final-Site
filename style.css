@@ -8,14 +8,14 @@ body {
 }
 nav {
   height: 80px;
-  background: #fdcc04;
+  background: #e2c48c;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0rem calc((100vw - 1300px) / 2);
 }
 .logo {
-  color: #000;
+  color: #fff;
   font-size: 1.5rem;
   font-weight: bold;
   font-size: italic;
@@ -23,12 +23,12 @@ nav {
 }
 nav a {
   text-decoration: none;
-  color: #000;
+  color: #fff;
   padding: 0 1.5rem;
   justify-content: right;
 }
 nav a:hover {
-  color: #fff;
+  color: #fdcc04;
 }
 /* .holder {
   width: 500px;
@@ -37,7 +37,7 @@ nav a:hover {
 } */
 
 .hero {
-  background: #fdcc04;
+  background: #555064;
 }
 .hero-container {
   display: grid;
@@ -50,8 +50,8 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
-  color: #000;
+  align-items: center;
+  color: #fff;
   padding: 0rem 2rem;
 }
 .column-left h1 {
@@ -88,8 +88,8 @@ nav a:hover {
   border: none;
   border-radius: 5px;
   font-size: 1rem;
-  color: #fdcc04;
-  background: #000;
+  color: #fff;
+  background: #e2c48c;
   cursor: pointer;
   border-radius: 50px;
   position: absolute;
@@ -99,7 +99,7 @@ nav a:hover {
 }
 .button:hover {
   background: #fff;
-  color: #000;
+  color: #fdcc04;
 }
 @media screen and (max-width: 768px) {
   .hero-container {
