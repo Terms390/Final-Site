@@ -20,6 +20,7 @@ nav {
   font-weight: bold;
   font-size: italic;
   padding: 0 2rem;
+  margin-left: -30px;
 }
 nav a {
   text-decoration: none;
@@ -27,7 +28,6 @@ nav a {
   padding: 0 1.5rem;
 }
 nav a:hover {
-  background: #fff;
   color: #fdcc04;
 }
 
@@ -71,8 +71,8 @@ nav a:hover {
   cursor: pointer;
   border-radius: 50px;
   position: absolute;
-  left: 18%;
-  bottom: 1%;
+  left: 23%;
+  bottom: 2%;
   text-decoration: none;
 }
 .button:hover {
