@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(255, 255, 255);
+  background-color: #555064;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -27,13 +27,10 @@ nav a {
   padding: 0 1.5rem;
 }
 nav a:hover {
-  background:#fff 
+  background: #fff;
   color: #fdcc04;
 }
 
-.hero {
-  background: #555064;
-}
 .hero-container {
   width: 100%;
   max-width: 1200px;
@@ -89,12 +86,15 @@ nav a:hover {
   padding: 0rem 2rem;
 }
 
-.poster-design img {
-  width: 59vh;
-  height: 91vh;
-  margin-left: 109vh;
-  margin-top: -2px;
-  align-items: center;
+.poster-design {
+  background-color: red;
+  background-image: url("launch - Copy.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 744px;
+  height: 1052px;
+  margin: 20px auto;
 }
 
 /* .hero-image {
