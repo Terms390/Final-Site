@@ -21,7 +21,7 @@ nav {
   font-size: 1.5rem;
   font-weight: bold;
   padding: 0 2rem;
-  margin-left: -30px;
+  margin-left: -125px;
 }
 
 nav a {
@@ -40,6 +40,10 @@ nav a:hover {
   justify-content: center;
   align-items: center;
   height: 95vh;
+  position: relative;
+}
+.hero-video {
+  width: 1200px;
 }
 
 .hero-container {
@@ -80,8 +84,8 @@ nav a:hover {
   background: #e2c48c;
   cursor: pointer;
   position: absolute;
-  left: 27%;
-  bottom: 2%;
+  left: 23%;
+  bottom: 4%;
   transform: translateX(-50%);
   text-decoration: none;
 }
