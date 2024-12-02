@@ -8,14 +8,14 @@ body {
 }
 nav {
   height: 80px;
-  background: #e2c48c;
+  background: #e4a93b;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0rem calc((100vw - 1300px) / 2);
 }
 .logo {
-  color: #fff;
+  color: #555064;
   font-size: 1.5rem;
   font-weight: bold;
   font-size: italic;
@@ -24,7 +24,7 @@ nav {
 }
 nav a {
   text-decoration: none;
-  color: #fff;
+  color: #555064;
   padding: 0 1.5rem;
 }
 nav a:hover {
@@ -66,7 +66,7 @@ nav a:hover {
   border: none;
   border-radius: 5px;
   font-size: 1rem;
-  color: #fff;
+  color: #555064;
   background: #e2c48c;
   cursor: pointer;
   border-radius: 50px;
