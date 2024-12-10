@@ -43,7 +43,6 @@ nav a:hover {
   position: relative;
 }
 .hero-video {
-  border: 1px solid #f00;
   width: 1200px;
 }
 
@@ -54,7 +53,6 @@ nav a:hover {
   gap: 2rem; /* Adds spacing between text and video */
   max-width: 2000px;
   width: 100%;
-  border: 1px solid #f00;
 }
 
 .column-left {
@@ -65,7 +63,6 @@ nav a:hover {
   color: #fff;
   padding: 0 2rem;
   text-align: center;
-  border: 1px solid #f00;
 }
 
 .column-left h1 {
@@ -76,7 +73,6 @@ nav a:hover {
 .column-left h2 {
   font-size: 1.5rem;
   line-height: 1.5;
-  border: 1px solid #f00;
 }
 
 .button {
